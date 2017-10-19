@@ -1,0 +1,205 @@
+@import url('base.css');
+/* 头部开始 */
+head{
+	width: 1200px;
+	height: 95px;
+	margin: 0 auto;
+}
+.list{
+	width: 1200px;
+	height: 94px;
+	margin: 0 auto;
+	border-bottom: 1px solid #e5e5e5;
+	 display: flex;
+  	justify-content: space-between;
+}
+.list-left{
+	height: 94px;
+}
+.list-left>a{
+	display: block;
+	margin: 0 auto;
+	padding: 25px; 
+}
+.list-left>a>img{
+	width: 201px;
+	max-height: 37px;
+}
+.list-middle{
+	height: 94px; 
+	position: relative;
+}
+.list-middle>li{
+	height: 94px;
+	font-size: 14px;
+	margin-top: 40px;
+	text-align: center;
+	margin-right: 30px;
+	float: left;
+}
+.list-middle>li>.a{
+	color: #999999;
+}
+.list-middle>li>.a:hover{
+	color: #000;
+}
+.itemus{
+	width:150px;
+	height: 100px;
+	background: #fff;
+	position: absolute;
+	top: 80px;
+	right: -60px;
+	z-index: 9;
+	display: none;
+	box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.15);
+}
+.itemus>.itemus1{
+	display: block;
+	width:150px;
+	height: 50px;
+	color: #999999;
+	font-size: 14px;
+	float: left;
+	line-height: 50px;
+}
+.itemus>.itemus1:first-child{
+	border-bottom: 1px solid #E8E8E8;
+}
+.list-right{
+	height: 94px;
+	float: left;
+	margin-right: 50px; 
+}
+.first{
+	color: #696969;
+	font-size: 24px;
+	min-height: 30px;
+	display: block;
+	margin-right: 20px; 
+	margin-top: 25px; 
+}
+.list-right:last-child{
+	color: #d60000;
+	font-size: 15px;
+}
+/* 头部结束 */
+/* 装修效果图开始 */
+.teamtu{
+	width: 1200px;
+	height: 1600px;
+	margin: 0 auto;
+}
+.xg-ll{
+	width: 750px;
+	height: 1600px; 
+	margin: 0 auto;
+	float: left;
+	padding-left: 30px;
+	padding-top: 30px; 
+}
+.xg-l{
+	display: block;
+	margin: 0 auto;
+	width: 750px;
+	height: 1500px;
+	background: #F4F4F4;
+}
+.xg-l>li{
+	width: 750px;
+	height: 250px;
+	padding: 30px;
+	float: left;
+	border-bottom: 1px solid #E5E5E5;
+}
+.xg-l>li>img{
+	display: block;
+	width: 300px;
+	height: 200px;
+	float: left;
+}	
+.img2{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.img2>a{
+	color: #8C8C8C;
+}
+.img3>p{
+	color: #B7B7B7;
+	font-size: 14px;
+	margin: 10px;
+}
+.img4{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #FFA1A1;
+	font-size: 13px;
+}
+.img4>a{
+	color: #FFA1A1;
+}
+.xg-r{
+	width: 400px;
+	height: 250px;
+	float: right;
+	background: #F4F4F4;
+	margin-top: 30px;
+}
+.xg-rzi{
+	display: block;
+	width: 360px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 15px;
+	color: #666666;
+	border-bottom: 1px solid #666666;
+}
+.xg-r>p{
+	padding: 5px 20px;
+	color: #999999;
+	font-size: 14px; 
+}
+ /* 装修效果图结束 */
+/* 结尾开始 */
+.last{
+	/* width: 1200px; */
+	margin: 0 auto;
+	height: 300px;
+	background: #000;
+	overflow: hidden;
+}
+.last-top{
+	width: 400px;
+	height: 14px;
+	margin: 0 auto;
+	color: #999999;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	margin-top:50px; 
+}
+.last-top>li{
+	margin-left: 20px;
+	float: left;
+}
+.last-img{
+	width: 130px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.last-img>img{
+	width: 130px;
+	height: 130px;
+	margin: 0 auto;
+}
+.last>p{
+	color: #999999;
+	font-size: 14px;
+	text-align: center;
+}
+/* 结尾结束 */

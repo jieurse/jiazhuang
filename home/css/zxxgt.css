@@ -1,0 +1,263 @@
+@import url('base.css');
+/* 头部开始 */
+head{
+	width: 1200px;
+	height: 95px;
+	margin: 0 auto;
+}
+.list{
+	width: 1200px;
+	height: 94px;
+	margin: 0 auto;
+	 display: flex;
+  	justify-content: space-between;
+	border-bottom: 1px solid #e5e5e5;
+}
+.list-left{
+	height: 94px;
+}
+.list-left>a{
+	display: block;
+	margin: 0 auto;
+	padding: 25px; 
+}
+.list-left>a>img{
+	width: 201px;
+	max-height: 37px;
+}
+.list-middle{
+	height: 94px; 
+	position: relative;
+}
+.list-middle>li{
+	height: 94px;
+	font-size: 14px;
+	margin-top: 40px;
+	text-align: center;
+	margin-right: 30px;
+	float: left;
+}
+.list-middle>li>.a{
+	color: #999999;
+}
+.list-middle>li>.a:hover{
+	color: #000;
+}
+.itemus{
+	width:150px;
+	height: 100px;
+	background: #fff;
+	position: absolute;
+	top: 80px;
+	right: -60px;
+	z-index: 9;
+	display: none;
+	box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.15);
+}
+.itemus>.itemus1{
+	display: block;
+	width:150px;
+	height: 50px;
+	color: #999999;
+	font-size: 14px;
+	float: left;
+	line-height: 50px;
+}
+.itemus>.itemus1:first-child{
+	border-bottom: 1px solid #E8E8E8;
+}
+.list-right{
+	height: 94px;
+	float: left;
+	margin-right: 50px; 
+}
+.first{
+	color: #696969;
+	font-size: 24px;
+	min-height: 30px;
+	display: block;
+	margin-right: 20px; 
+	margin-top: 25px; 
+}
+.list-right:last-child{
+	color: #d60000;
+	font-size: 15px;
+}
+/* 头部结束 */
+/* 装修效果图开始 */
+.teamtu{
+	width: 1200px;
+	height: 1200px;
+	margin: 0 auto;
+}
+.xg-ll{
+	width: 750px;
+	height: 1400px; 
+	float: left;
+	padding-left: 15px;
+	padding-top: 30px; 
+}
+.xg-l{
+	width: 750px;
+	height: 1240px;
+	float: left;
+	padding-top: 15px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background: #F4F4F4;
+	position: relative;
+}
+.xg-l>li{
+	width: 230px;
+	height: 230px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	float: left;
+}
+/* .xg-l>li:hover{
+	background: rgba(0, 0, 0, 0.2);
+} */
+.xg-l>li>img{
+	width: 100%;
+	height: 100%;
+	transition: all 0.6s;
+	position: relative;
+}
+.xg-l>li>img:hover {
+	/* transform: scale(1.1, 1.1); */
+}
+.xg-l>li>i{
+	/* display: block; */
+	width: 230px;
+	height: 230px;
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	opacity: 0;
+}
+.xg-l>li>i:hover .xg-l>li>img{
+	opacity: 1;
+}
+.xg-r{
+	width: 400px;
+	height: 1000px;
+	float: right;
+	background: #F4F4F4;
+	margin-top: 50px;
+}
+.xg-rzi{
+	display: block;
+	width: 360px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 15px;
+	color: #666666;
+	border-bottom: 1px solid #666666;
+}	
+.img1{
+	display: block;
+	width: 350px;
+	height: 270px;
+}
+.img1>a{
+	display: block;
+	width: 360px;
+	height: 270px;
+	margin: 20px;
+	position: relative;
+}
+.img1>a>img{
+	display: block;
+	margin: 10px auto;
+	width: 350px;
+	height: 270px;
+}
+.img2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	transition: all 0.6s;
+}
+.img2>a{
+	color: #8C8C8C;
+}
+.img3>p{
+	color: #B7B7B7;
+	font-size: 14px;
+	margin: 5px 20px;
+}
+.img4{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #FFA1A1;
+	font-size: 13px;
+}
+.img4>a{
+	color: #FFA1A1;
+}
+body{
+	width: 100%;
+	height: 100%;
+	/* overflow: hidden; */
+	position: relative;
+}
+.mask{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	box-shadow: 0 0 0 1000px rgba(0, 0, 0, 1.0);
+	transform: scale(0, 0);
+	transition: 1s;
+}
+.active{
+	transform: scale(1.5, 1.5);
+}
+ /* 装修效果图结束 */
+/* 结尾开始 */
+.last{
+	/* width: 1200px; */
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	background: #000;
+	overflow: hidden;
+}
+.last-top{
+	width: 400px;
+	height: 14px;
+	margin: 0 auto;
+	color: #999999;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	margin-top:50px; 
+}
+.last-top>li{
+	margin-left: 20px;
+	float: left;
+}
+.last-img{
+	width: 130px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.last-img>img{
+	width: 130px;
+	height: 130px;
+	margin: 0 auto;
+}
+.last>p{
+	color: #999999;
+	font-size: 14px;
+	text-align: center;
+}
+/* 结尾结束 */
